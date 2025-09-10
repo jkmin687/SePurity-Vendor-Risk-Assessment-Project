@@ -19,7 +19,7 @@ The project follows a **step-by-step VRM lifecycle**, beginning with vendor scop
 ## Visual Overview
 The diagram below shows how SePurity employees access AWS, Salesforce, and Dropbox through the company’s Single Sign-On (SSO) provider, and the type of data each vendor handles.  
 
-![SePurity Context Diagram](01_scope/SePurity_Context_Diagram.png)
+<img width="3000" height="2100" alt="SePurity Context Diagram" src="https://github.com/user-attachments/assets/f60e444e-f7c7-46d8-b7e5-d339e15492af" />
 
 ---
 
