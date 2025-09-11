@@ -1,7 +1,7 @@
 # SePurity Vendor Risk Management Project
 
-This project simulates a **Third-Party Vendor Risk Management (VRM) assessment** for **SePurity, Inc.**, a fictional SaaS cybersecurity company.  
-It was created as a self-driven portfolio project to demonstrate skills in Governance, Risk, and Compliance (GRC) and to practice documenting realistic vendor risk scenarios.
+This project simulates a **Third-Party Vendor Risk Management (VRM) assessment** for **SePurity, Inc.**, a fictional SaaS cybersecurity company I made for the purposes of this project.  
+I created it as a self-driven portfolio project to demonstrate my skills and passion in Governance, Risk, and Compliance (GRC) and to practice documenting realistic vendor risk scenarios.
 
 ---
 
@@ -12,7 +12,7 @@ The company depends on three vendors to operate:
 - **Salesforce (Medium Tier):** CRM for managing customer accounts, renewals, and support.  
 - **Dropbox (Low Tier):** Internal file sharing for training materials, templates, and marketing content.  
 
-The project follows a **step-by-step VRM lifecycle**, beginning with vendor scoping and tiering, and progressing toward due diligence, control evaluation, and continuous monitoring.
+This project follows a step-by-step VRM lifecycle, beginning with vendor scoping and tiering, and progressing toward due diligence, control evaluation, and continuous monitoring.
 
 ---
 
@@ -25,7 +25,7 @@ The diagram below shows how SePurity employees access AWS, Salesforce, and Dropb
 
 ## Current Progress
 - [x] Step 1: Scope & Company Profile  
-- [ ] Step 2: Inherent Risk Questionnaire (IRQ)  
+- [x] Step 2: Inherent Risk Questionnaire (IRQ)  
 - [ ] Step 3: Due Diligence Checklist  
 - [ ] Step 4: Control Evaluation  
 - [ ] Step 5: Risk Register  
@@ -52,6 +52,6 @@ The diagram below shows how SePurity employees access AWS, Salesforce, and Dropb
 ---
 
 ## About This Project
-This project is part of my cybersecurity and GRC learning journey.  
+This Vendor Risk Assessment project is part of my cybersecurity and GRC learning journey.  
 It demonstrates how Vendor Risk Management can be structured, documented, and communicated in a way that reflects real-world processes.  
-The deliverables are designed for transparency, clarity, and to highlight how risks can be identified and presented effectively.  
+The deliverables have been designed for transparency, clarity, and to highlight how risks can be identified and presented effectively.  
