@@ -1,5 +1,6 @@
 # Company Profile — SePurity, Inc.
-
+> *SePurity: Security made simple, compliance made clear.*
+---
 ## Overview
 - **Company:** SePurity, Inc.  
 - **Description:** Cybersecurity Software as a Service (SaaS); provides cloud-based security and compliance tools for small to medium-sized businesses.  
