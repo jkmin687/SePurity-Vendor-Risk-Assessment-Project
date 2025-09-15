@@ -1,6 +1,6 @@
 # SePurity Vendor Risk Management Project
 
-This project simulates a **Third-Party Vendor Risk Management (VRM) assessment** for **SePurity, Inc.**, a fictional SaaS cybersecurity company I made for the purposes of this project.  
+This project is designed to simulate a **Third-Party Vendor Risk Management (VRM) assessment** for **SePurity, Inc.**, a fictional SaaS cybersecurity company I made for the purposes of this project.  
 I created it as a self-driven portfolio project to demonstrate my skills and passion in Governance, Risk, and Compliance (GRC) and to practice documenting realistic vendor risk scenarios.
 
 ---
@@ -8,8 +8,8 @@ I created it as a self-driven portfolio project to demonstrate my skills and pas
 ## Project Background
 **SePurity, Inc.** is a cybersecurity SaaS provider serving small and mid-sized businesses.  
 The company depends on three vendors to operate:  
-- **AWS (High Tier):** Hosts the SePurity platform, sensitive customer data, and scan results.  
-- **Salesforce (Medium Tier):** CRM for managing customer accounts, renewals, and support.  
+- **AWS (Critical Tier):** Hosts the SePurity platform, sensitive customer data, and scan results.  
+- **Salesforce (High Tier):** CRM for managing customer accounts, renewals, and support.  
 - **Dropbox (Low Tier):** Internal file sharing for training materials, templates, and marketing content.  
 
 This project follows a step-by-step VRM lifecycle, beginning with vendor scoping and tiering, and progressing toward due diligence, control evaluation, and continuous monitoring.
@@ -35,7 +35,7 @@ The diagram below shows how SePurity employees access AWS, Salesforce, and Dropb
 ---
 
 ## Skills Demonstrated
-- Vendor risk scoping and tiering (High, Medium, Low)  
+- Vendor risk scoping and tiering (Critical, High, Medium, Low)  
 - Data classification modeling (Public, Internal, Sensitive, Regulated)  
 - Threat modeling and scenario analysis (“What could go wrong”)  
 - Professional documentation and GitHub project organization  
