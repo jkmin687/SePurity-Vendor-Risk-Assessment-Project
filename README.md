@@ -26,7 +26,7 @@ The diagram below shows how SePurity employees access AWS, Salesforce, and Dropb
 ## Current Progress
 - [x] Step 1: Scope & Company Profile  
 - [x] Step 2: Inherent Risk Questionnaire (IRQ)  
-- [ ] Step 3: Due Diligence Checklist  
+- [x] Step 3: Due Diligence Checklist  
 - [ ] Step 4: Control Evaluation  
 - [ ] Step 5: Risk Register  
 - [ ] Step 6: Remediation Plan  
