@@ -1,6 +1,6 @@
 # SePurity Vendor Risk Management Project
 
-This project is designed to simulate a **Third-Party Vendor Risk Management (VRM) assessment** for **SePurity, Inc.**, a fictional SaaS cybersecurity company I made for the purposes of this project.  
+I made this project to simulate a **Third-Party Vendor Risk Management (VRM) assessment** for **SePurity, Inc.**, a fictional SaaS cybersecurity company for the purposes of this project.  
 I created it as a self-driven portfolio project to demonstrate my skills and passion in Governance, Risk, and Compliance (GRC) and to practice documenting realistic vendor risk scenarios.
 
 ---
@@ -54,4 +54,4 @@ The diagram below shows how SePurity employees access AWS, Salesforce, and Dropb
 ## About This Project
 This Vendor Risk Assessment project is part of my cybersecurity and GRC learning journey.  
 It demonstrates how Vendor Risk Management can be structured, documented, and communicated in a way that reflects real-world processes.  
-The deliverables have been designed for transparency, clarity, and to highlight how risks can be identified and presented effectively.  
+I have designed the deliverbales to have transparency, clarity, and to highlight how risks can be identified and presented effectively.  
