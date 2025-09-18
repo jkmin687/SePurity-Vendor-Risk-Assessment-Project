@@ -37,6 +37,9 @@ I created it as a self-driven portfolio project to demonstrate my skills and pas
    - Created a monitoring playbook with quarterly, annual, and ongoing activities  
    - Defined owners and review cycles to ensure continuous oversight  
 
+8. **[Step 8: Risk Assessment Report](08_risk_assessment_report/Risk_Assessment_Report.md)**  
+   - Full professional-style report that consolidates findings from Steps 1–7  
+   - Written in a format that could be presented to leadership or clients  
 ---
 
 ## Skills Demonstrated
