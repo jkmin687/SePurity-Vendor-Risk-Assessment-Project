@@ -1,7 +1,7 @@
 # Monitoring SOP — SePurity, Inc.
 
 This step describes how SePurity will continue to oversee its vendors after the initial assessment.  
-The risk register and remediation plan are valuable, but risks do not stay static. Vendors evolve, new subprocessors are added, and regulations shift. Monitoring makes sure SePurity stays ahead of these changes.  
+The risk register and remediation plan are valuable, but risks do not stay static. The landscape is fluid, as vendors evolve, new subprocessors are added, and regulations shift. Monitoring makes sure SePurity stays ahead of these changes.  
 
 ---
 
