@@ -1,4 +1,4 @@
-# What Could Go Wrong — SePurity, Inc.
+# What Could Go Wrong // SePurity, Inc.
 
 This section highlights realistic risk scenarios for each vendor in scope. The goal is to anticipate potential failures or vulnerabilities and understand how they could impact SePurity’s customers, operations, and compliance posture.  
 
