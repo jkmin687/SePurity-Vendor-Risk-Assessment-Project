@@ -1,7 +1,7 @@
-# Scope Statement — SePurity, Inc.
+# Scope Statement // SePurity, Inc.
 
 ## Purpose
-The scope statement defines which vendors, systems, and data types are covered in this Vendor Risk Management (VRM) project. Setting a clear scope ensures that the assessment focuses on the vendors that present the highest impact to SePurity’s operations and customers, while excluding areas that are not relevant at this stage.  
+The scope statement defines which vendors, systems, and data types are covered in this Vendor Risk Management project. Setting a clear scope ensures that the assessment focuses on the vendors that present the highest impact to SePurity’s operations and customers, while excluding areas that are not relevant at this stage.  
 
 ---
 
@@ -29,4 +29,4 @@ The following systems and data types are excluded from this project:
 ---
 
 ## Summary
-This scope ensures that SePurity’s VRM project reflects a realistic mix of **high, medium, and low-tier vendors**. It focuses on the systems that handle customer data and business-critical operations, while deliberately excluding areas that do not impact SePurity’s current service delivery.  
+This scope ensures that SePurity’s VRM project reflects a realistic mix of **critical, high, medium, and low-tier vendors**. It focuses on the systems that handle customer data and business-critical operations, while deliberately excluding areas that do not impact SePurity’s current service delivery.  
