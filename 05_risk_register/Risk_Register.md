@@ -1,8 +1,8 @@
-# Risk Register — SePurity, Inc.
+# Risk Register // SePurity, Inc.
 
-This Risk Register pulls together everything I worked on in the earlier steps.  
-I started with the inherent risks in Step 2, then dug into vendor controls in Step 3, and evaluated their effectiveness in Step 4.  
-Here, I pulled the main risks into one place so I can see not only the risks, but also how they should be handled going forward.  
+This Risk Register pulls together everything from the earlier steps.  
+It began with the inherent risks in Step 2, then dug into vendor controls in Step 3, and evaluating their effectiveness in Step 4.  
+Here, the main risks were compiled into one place so the risks and how they should be handled going forward were clearly displayed.  
 
 ---
 
