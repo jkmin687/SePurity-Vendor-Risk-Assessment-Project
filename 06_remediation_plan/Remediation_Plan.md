@@ -1,4 +1,4 @@
-# Remediation Plan — SePurity, Inc.
+# Remediation Plan // SePurity, Inc.
 
 This step takes the risks from the register and turns them into actions.  
 A risk register on its own is useful, but it is only half the story.  
@@ -8,7 +8,7 @@ The remediation plan shows how SePurity will actually close the gaps that were i
 
 ## How the Plan Works
 
-For each risk, I documented:  
+For each risk:  
 1. Remediation ID: unique identifier for tracking  
 2. Vendor: AWS, Salesforce, or Dropbox  
 3. Risk Description: what could go wrong  
@@ -58,4 +58,3 @@ Dropbox: Risks are low because of the data type, but they still need to be manag
 
 This remediation plan shows that identifying risks is not enough.  
 What matters is turning risks into tasks, assigning owners, and following through until they are closed.  
-That is what creates real value in vendor risk management.  
