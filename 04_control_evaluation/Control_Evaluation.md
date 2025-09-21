@@ -1,17 +1,17 @@
-# Control Evaluation — SePurity, Inc.
+# Control Evaluation // SePurity, Inc.
 
-This step is where I evaluate how effective each vendor’s controls really are.  
-In Step 2, I scored their inherent risk (risk with no protections).  
-In Step 3, I gathered information from the Due Diligence Checklist.  
+This step evaluates how effective each vendor’s controls are in practice.
+In Step 2, inherent risk was scored without considering any protections.
+In Step 3, information was collected through the Due Diligence Checklists.
 
-Now I am asking: *“Do these controls reduce risk enough for us to be comfortable?”*  
-This is about shifting from inherent risk to residual risk (the risk that remains after controls are applied).  
+The question is: “Do these controls reduce risk enough for SePurity to be comfortable?”
+This is where the analysis shifts from inherent risk to residual risk, which is the risk that remains after vendor controls are applied.
 
 ---
 
 ## How I Evaluated Controls
 
-I used six categories:  
+Six categories were used:  
 
 1. Governance & Compliance: certifications, audits, policies  
 2. Data Protection: encryption, retention, residency  
@@ -38,7 +38,7 @@ Ratings are kept simple:
 | Continuity & Recovery   | Multi-region redundancy, 99.99% SLA              | Strong        |
 | Third-Party Oversight   | Publishes subprocessors in AWS Artifact          | Partial       |
 
-**My take:** AWS is the backbone of SePurity. Their controls are mature and reliable, but the shared responsibility model means SePurity has to handle some monitoring on its own. Residual risk is moderate.  
+**Observation:** AWS is the backbone of SePurity. Their controls are mature and reliable, but the shared responsibility model means SePurity has to handle some monitoring on its own. Residual risk is moderate.  
 
 ---
 
@@ -53,7 +53,7 @@ Ratings are kept simple:
 | Continuity & Recovery   | Redundant data centers, published SLA            | Strong        |
 | Third-Party Oversight   | Subprocessors published on trust portal          | Partial       |
 
-**My take:** Salesforce is strong on compliance and customer data protection. Where they fall short is giving full visibility into monitoring and subprocessor activity. Residual risk is medium.  
+**Observation:** Salesforce is strong on compliance and customer data protection. Where they fall short is giving full visibility into monitoring and subprocessor activity. Residual risk is medium.  
 
 ---
 
@@ -68,7 +68,7 @@ Ratings are kept simple:
 | Continuity & Recovery   | Standard SLA, not much detail on DR              | Partial       |
 | Third-Party Oversight   | Publishes subprocessors                          | Strong        |
 
-**My take:** Dropbox is fine for internal docs but not something I would trust with sensitive customer data. Weaknesses in monitoring and continuity are acceptable here only because of its limited scope. Residual risk is low.  
+**Observation:** Dropbox is fine for internal docs but not something I would trust with sensitive customer data. Weaknesses in monitoring and continuity are acceptable here only because of its limited scope. Residual risk is low.  
 
 ---
 
