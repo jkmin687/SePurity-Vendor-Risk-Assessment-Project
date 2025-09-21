@@ -1,92 +1,91 @@
-# Inherent Risk Questionnaire (IRQ) — SePurity, Inc.
+# Inherent Risk Questionnaire // SePurity, Inc.
 
-This section shows how I decided to tier SePurity’s vendors by **inherent risk**.  
-Inherent risk is basically the *raw level of risk a vendor brings* if you strip away all their security controls. *i.e. How dangerous could they be to us just by the type of data they hold, how much of it, and how critical they are to the business?*  
+This section outlines how SePurity’s vendors were tiered by **inherent risk**.  
+Inherent risk represents the *raw level of risk a vendor introduces* if no security controls were put into place. In other words: *How risky could this vendor be simply based on the type of data they handle, the volume of it, and their importance to business operations?*  
 
 ---
 
 ## Scoring Model
 
-When I looked at each vendor, I asked myself five key questions:  
+Each vendor was assessed across five key categories:  
 
-1. **Data Sensitivity** – Do they touch customer data, internal data, or regulated data?  
-2. **Data Volume** – How much data do they actually hold?  
-3. **Criticality to Operations** – Would SePurity grind to a halt if this vendor failed?  
-4. **System Integration** – How tightly woven is this vendor into our systems?  
-5. **Regulatory Impact** – If something went wrong, would we get hit with GDPR/CCPA trouble or other compliance issues?  
+1. **Data Sensitivity**: The type of data handled (customer, internal, or regulated).  
+2. **Data Volume**: The scale or amount of data stored or processed.  
+3. **Criticality to Operations**: Whether SePurity could continue to function if the vendor failed.  
+4. **System Integration**: How deeply the vendor is embedded into SePurity’s systems.  
+5. **Regulatory Impact**: The extent to which a breach could trigger GDPR, CCPA, or other compliance issues.  
 
-### Scale I Used
+### Scale Used  
 - **1 = Low**  
 - **2 = Medium**  
 - **3 = High**  
 - **4 = Critical**  
 
-### Tier Ranges
-- **Low:** 5–8 (nice to have, minimal risk if things go wrong)  
-- **Medium:** 9–12 (important, but not a showstopper)  
-- **High:** 13–16 (major issues if breached or down)  
-- **Critical:** 17–20 (the company cannot function without them)  
+### Tier Ranges  
+- **Low:** 5–8 (minimal risk if things go wrong)  
+- **Medium:** 9–12 (important, but not business-critical)  
+- **High:** 13–16 (serious impact if breached or unavailable)  
+- **Critical:** 17–20 (company cannot function without them)  
 
-> The total score is the sum of the five categories. The higher the number, the more risky the vendor is by default.
-
----
-## Tier Legend
-
-Here’s a simple visual for the ranges:  
-
-<img width="2970" height="720" alt="SePurity_Tier_Legend" src="https://github.com/user-attachments/assets/221a6c16-756b-4f24-9713-668efaf027be" />
+> The total score is the sum of the five categories. The higher the number, the greater the inherent risk.  
 
 ---
 
-## Vendor Rationale
+## Tier Legend  
 
-### AWS • Total 20 • Critical Tier
-AWS is the engine that powers everything SePurity does. It stores customer data, runs the platform, and keeps our services online. If AWS breaks, we break.  
-- Handles sensitive data (customer names, emails, scan results, logs).  
-- Hosts huge amounts of information across compute, storage, and databases.  
-- Outage = SePurity platform goes dark, no workarounds.  
-- Deeply integrated into our systems, from IAM to S3.  
-- A slip-up could mean GDPR or CCPA violations, not just downtime.  
-
-**Bottom line:** AWS is non-negotiable. It is a **Critical** vendor because without it, SePurity doesn’t exist.  
+<img width="2970" height="720" alt="SePurity_Tier_Legend" src="https://github.com/user-attachments/assets/221a6c16-756b-4f24-9713-668efaf027be" />  
 
 ---
 
-### Salesforce • Total 14 • High Tier
-Salesforce doesn’t keep the lights on, but it does keep the business running smoothly. It’s where sales, renewals, and support live. Losing it wouldn’t kill the product, but it would seriously hurt operations.  
-- Stores sensitive customer data like contact info and deal history.  
-- Holds thousands of records, but not our entire product database.  
-- Outage slows sales and support teams, though the core platform stays online.  
-- Connected through SSO and APIs, but not baked into the infrastructure.  
-- Breach could still land us in trouble with GDPR/CCPA.  
+## Vendor Rationale  
 
-**Bottom line:** Salesforce is a **High** risk vendor. It’s not Critical because the app itself still runs, but losing it would damage customer trust and our ability to operate.  
+### AWS • Total 20 • Critical Tier  
+AWS is the foundation of SePurity’s platform. It stores sensitive customer information, powers the compute and database layers, and keeps the services online.  
+- Handles sensitive data such as customer names, emails, scan results, and logs.  
+- Manages large volumes of data across compute, storage, and databases.  
+- Outage would shut down the entire SePurity platform.  
+- Highly integrated into systems from IAM to S3.  
+- A failure or breach could result in GDPR or CCPA consequences in addition to downtime.  
 
----
-
-### Dropbox • Total 6 • Low Tier
-Dropbox is used for low-sensitivity things such as training docs, templates, and marketing content. Losing it would be tedious, but it wouldn’t stop SePurity or put us at regulatory risk.  
-- Handles internal data only, no customer info.  
-- Used company-wide but for low-stakes material.  
-- Outage = inconvenience, not disaster.  
-- Only linked to SSO, not tightly integrated.  
-- Minimal compliance concerns since it’s not storing regulated data.  
-
-**Bottom line:** Dropbox belongs in the **Low** tier. It matters for convenience, but not for security or operations.  
+**Bottom line:** AWS is a **Critical** vendor. Without it, SePurity cannot operate.  
 
 ---
 
-## Summary Table
+### Salesforce • Total 14 • High Tier  
+Salesforce is not responsible for uptime, but it is essential to smooth business operations. It houses sales, renewals, and customer support activities. Losing it would not stop the product from functioning, but it would severely impact customer relationships.  
+- Stores sensitive customer data such as contact details and deal history.  
+- Holds thousands of records, though not the full product database.  
+- An outage would hinder sales and support but leave the platform running.  
+- Integrated through SSO and APIs, though not tied directly to infrastructure.  
+- A breach could still result in GDPR or CCPA issues due to PII exposure.  
 
-| Vendor       | Data Sensitivity | Data Volume | Criticality | System Integration | Regulatory Impact | **Total** | **Tier**   |
-|--------------|------------------|-------------|-------------|--------------------|------------------|-----------|------------|
-| **AWS**      | 4                | 4           | 4           | 4                  | 4                | **20**    | **Critical** |
-| **Salesforce** | 3              | 3           | 3           | 2                  | 3                | **14**    | **High**     |
-| **Dropbox**  | 1                | 2           | 1           | 1                  | 1                | **6**     | **Low**      |
+**Bottom line:** Salesforce is a **High** risk vendor. It is not Critical since the platform remains available, but its loss would harm operations and trust.  
 
 ---
 
-## Visual Snapshot
+### Dropbox • Total 6 • Low Tier  
+Dropbox supports collaboration and internal file sharing. It is used primarily for non-sensitive content such as training documents, templates, and marketing files. Losing it would be inconvenient but not harmful to compliance or core business functions.  
+- Manages internal data only, with no customer information.  
+- Used company-wide, but strictly for low-sensitivity material.  
+- Outage would slow collaboration, not disrupt operations.  
+- Connected to SSO but not deeply integrated.  
+- Carries minimal compliance concerns since it does not handle regulated data.  
+
+**Bottom line:** Dropbox is a **Low** tier vendor. It contributes to convenience, not security or mission-critical functions.  
+
+---
+
+## Summary Table  
+
+| Vendor        | Data Sensitivity | Data Volume | Criticality | System Integration | Regulatory Impact | **Total** | **Tier**   |
+|---------------|------------------|-------------|-------------|--------------------|------------------|-----------|------------|
+| **AWS**       | 4                | 4           | 4           | 4                  | 4                | **20**    | **Critical** |
+| **Salesforce**| 3                | 3           | 3           | 2                  | 3                | **14**    | **High**     |
+| **Dropbox**   | 1                | 2           | 1           | 1                  | 1                | **6**     | **Low**      |  
+
+---
+
+## Visual Snapshot  
 
 ```mermaid
 pie showData
