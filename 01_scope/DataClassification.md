@@ -1,4 +1,4 @@
-# Data Classification — SePurity, Inc.
+# Data Classification // SePurity, Inc.
 
 ## Purpose
 Data classification gives SePurity a way to protect information based on its level of sensitivity. This approach ensures that information is managed properly inside the company and also helps define expectations for vendors.  
