@@ -1,4 +1,4 @@
-# Vendor Use Cases — SePurity, Inc.
+# Vendor Use Cases // SePurity, Inc.
 
 ## AWS (High Tier)
 AWS is the foundation of SePurity’s product delivery. It provides the compute, storage, and database infrastructure for the SePurity Security Suite. Engineers and administrators use AWS daily to deploy services, store customer data, and manage backups.  
