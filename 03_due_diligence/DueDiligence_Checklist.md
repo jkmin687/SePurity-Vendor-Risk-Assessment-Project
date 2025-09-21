@@ -1,9 +1,9 @@
-# Due Diligence Checklist — SePurity, Inc.
+# Due Diligence Checklist // SePurity, Inc.
 
 These checklists are designed to evaluate the security and compliance posture of SePurity’s third-party vendors.  
 Through these checklists, the goal is to verify whether vendors have the means necessary (controls, certifications, etc.) to manage risks identified during the previous *Inherent Risk Questionnaire* step.  
 
-The *Master Checklist* is one that pertains to all vendors and acts as a baseline, whereas the *Vendor-Specefic Due Diligence Questionnaires* are tailored to each vendor.
+The *Master Checklist* is one that pertains to all vendors and acts as a baseline, while the *Vendor-Specefic Due Diligence Questionnaires* are tailored to each vendor.
 ---
 
 ## Master Checklist
@@ -82,6 +82,14 @@ Salesforce is **High** because it processes sensitive CRM data but does not dire
 - [ ] Redundant data centers for availability  
 
 **Notes:** Salesforce maintains a public [Trust and Compliance page](https://trust.salesforce.com/) with uptime and compliance details.  
+### Why Salesforce Includes GDPR and CCPA
+
+Salesforce processes personal data that falls under data protection laws such as GDPR (for customers in the UK/EU) and CCPA (for customers in California). Since SePurity uses Salesforce to manage customer contact information, deal history, and support records, this data qualifies as Personally Identifiable Information (PII).  
+
+- **GDPR impact**: Any mishandling of EU/UK customer information, such as unauthorized access or data export misuse, could trigger GDPR obligations around breach notification, lawful processing, and data minimization.  
+- **CCPA impact**: For California residents, CCPA requires transparency on what personal information is collected, stored, and shared. A breach or misuse of Salesforce records could lead to consumer claims or regulatory penalties under this law.  
+
+Because of this, Salesforce is not only important for operations but also carries regulatory exposure that must be considered in SePurity’s risk evaluation. Controls such as access management, encryption, and audit logging directly support compliance with these laws.
 
 ---
 
