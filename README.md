@@ -1,7 +1,7 @@
 # SePurity Vendor Risk Management Project
 
 I made this project to simulate a **Third-Party Vendor Risk Management (VRM) assessment** for **SePurity, Inc.**, a fictional SaaS cybersecurity company for the purposes of this project.  
-I created it as a self-driven portfolio project to demonstrate my skills and passion in Governance, Risk, and Compliance (GRC) and to practice documenting realistic vendor risk scenarios.
+I created it as a self-driven portfolio project to demonstrate my skills and passion in Governance, Risk, and Compliance and to practice documenting realistic vendor risk scenarios.
 
 ---
 
@@ -23,15 +23,15 @@ I created it as a self-driven portfolio project to demonstrate my skills and pas
 4. **[Step 4: Control Evaluation](04_control_evaluation/Control_Evaluation.md)**  
    - Evaluated control effectiveness for each vendor (Strong, Partial, Weak)  
    - Compared vendors side-by-side  
-   - Introduced the concept of **residual risk** and applied it to AWS, Salesforce, and Dropbox  
+   - Explained residual risk and applied it to AWS, Salesforce, and Dropbox  
 
 5. **[Step 5: Risk Register](05_risk_register/Risk_Register.md)**  
    - Logged vendor risks with unique IDs, descriptions, owners, and treatment plans  
    - Consolidated inherent risk, controls, and residual risk into a single view  
 
 6. **[Step 6: Remediation Plan](06_remediation_plan/Remediation_Plan.md)**  
-   - Converted risks into clear remediation actions with owners, timelines, and statuses  
-   - Added a visual checklist and Gantt chart to track remediation progress  
+   - Converted risks into remediation actions with owners, timelines, and statuses  
+   - Added a visual checklist to track remediation progress  
 
 7. **[Step 7: Monitoring SOP](07_monitoring_sop/Monitoring_SOP.md)**  
    - Created a monitoring playbook with quarterly, annual, and ongoing activities  
