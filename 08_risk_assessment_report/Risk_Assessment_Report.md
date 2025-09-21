@@ -1,4 +1,4 @@
-# Risk Assessment Report — SePurity, Inc.
+# Risk Assessment Report // SePurity, Inc.
 
 **Date:** September 17th, 2025 
 **Prepared by:** Justin Min  
