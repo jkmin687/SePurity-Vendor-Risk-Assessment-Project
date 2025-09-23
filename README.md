@@ -9,7 +9,7 @@ I created it as a self-driven portfolio project to demonstrate my skills and pas
 
 1. **[Step 1: Scope & Company Profile](01_scope/CompanyProfile.md)**  
    - Defined SePurity, Inc., its mission, SaaS product, and vendor landscape  
-   - Tiered vendors by importance (AWS: High, Salesforce: Medium, Dropbox: Low)  
+   - Tiered vendors by importance (AWS: Critical, Salesforce: High, Dropbox: Low)  
    - Built the context diagram and outlined initial risks  
 
 2. **[Step 2: Inherent Risk Questionnaire](02_inherent_risk/IRQ.md)**  
