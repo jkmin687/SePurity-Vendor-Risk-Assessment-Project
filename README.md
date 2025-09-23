@@ -1,6 +1,6 @@
 # SePurity Vendor Risk Management Project
 
-I made this project to simulate a **Third-Party Vendor Risk Management (VRM) assessment** for **SePurity, Inc.**, a fictional SaaS cybersecurity company for the purposes of this project.  
+This project was made to showcase a **Third-Party Vendor Risk Management (VRM) assessment** for **SePurity, Inc.**, a fictional SaaS cybersecurity company curated for the purposes of this project.  
 I created it as a self-driven portfolio project to demonstrate my skills and passion in Governance, Risk, and Compliance and to practice documenting realistic vendor risk scenarios.
 
 ---
