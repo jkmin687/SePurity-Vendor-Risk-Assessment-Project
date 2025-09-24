@@ -80,7 +80,7 @@ Controls were evaluated across governance, encryption, access, monitoring, conti
 To make sure risks stay under control, SePurity will:  
 - Review the Risk Register every quarter  
 - Track remediation progress quarterly  
-- Collect updated SOC 2, ISO 27001, and FedRAMP certifications annually  
+- Collect updated SOC 2 and ISO 27001 certifications annually  
 - Review vendor subprocessors each year  
 - Subscribe to vendor Trust Centers and monitor news sources for security incidents  
 
