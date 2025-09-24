@@ -21,7 +21,7 @@ Monitoring is what keeps vendor risk management alive. Without it, a risk assess
 |-----------------------------------|-----------|------------------|-----------------------------------------------------------------------------|
 | Vendor Risk Register Review       | Quarterly | GRC Lead         | Check if risks are still valid and update register with new findings.        |
 | Remediation Plan Progress Update  | Quarterly | Risk Owners      | Confirm if remediation items have moved from Open → In Progress → Closed.   |
-| Security Certifications Review    | Annually  | Security Team    | Collect updated SOC 2, ISO 27001, or FedRAMP reports from vendors.           |
+| Security Certifications Review    | Annually  | Security Team    | Collect updated SOC 2, ISO 27001 reports from vendors.           |
 | Subprocessor List Review          | Annually  | Security Team    | Check vendor trust portals for changes in subprocessors.                     |
 | Access and Permissions Review     | Quarterly | Security Team    | Review Salesforce roles, AWS IAM, and Dropbox access logs.                   |
 | Vendor SLA and Uptime Monitoring  | Ongoing   | Cloud Engineering | Ensure AWS uptime and Salesforce SLA metrics are being met.                  |
