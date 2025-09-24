@@ -13,7 +13,7 @@ The *Master Checklist* is one that pertains to all vendors and acts as a baselin
 - [ ] Vendor provides dedicated security or compliance contact  
 
 ### 2. Governance & Compliance
-- [ ] Vendor maintains at least one major certification (SOC 2 Type II, ISO 27001, FedRAMP, etc.)  
+- [ ] Vendor maintains at least one major certification (SOC 2 Type II, ISO 27001, etc.)  
 - [ ] Vendor conducts regular risk assessments (annually or more frequent)  
 - [ ] Vendor maintains documented security policies and procedures  
 - [ ] Vendor provides audit reports or summaries upon request  
@@ -56,7 +56,7 @@ The *Master Checklist* is one that pertains to all vendors and acts as a baselin
 AWS is the backbone of SePurity’s entire platform and is classified as **Critical**.  
 The focus here is on validating AWS’s infrastructure security and shared responsibility model.
 
-- [ ] SOC 2 Type II, ISO 27001, FedRAMP certified  
+- [ ] SOC 2 Type II, ISO 27001 certified  
 - [ ] Dedicated Trust & Safety or Security team with published documentation  
 - [ ] Data encrypted at rest (KMS) and in transit (TLS)  
 - [ ] IAM with MFA for all privileged accounts  
@@ -113,7 +113,7 @@ Due diligence still ensures that even “low tier” vendors don’t create avoi
 
 | Control Area            | **AWS (Critical)** | **Salesforce (High)** | **Dropbox (Low)** |
 |--------------------------|--------------------|------------------------|-------------------|
-| **Certifications**       | SOC 2, ISO 27001, FedRAMP | SOC 2, ISO 27001 | SOC 2, ISO 27001 |
+| **Certifications**       | SOC 2, ISO 27001, | SOC 2, ISO 27001 | SOC 2, ISO 27001 |
 | **Data Encryption**      | At rest & in transit (KMS, TLS) | At rest & in transit | At rest & in transit |
 | **SSO / MFA**            | Full SSO (SAML, OIDC), MFA for all admins | Full SSO, MFA supported | SSO available, MFA optional |
 | **Access Controls**      | Fine-grained IAM policies, least privilege | Role-based access for CRM users | Basic access roles, less granular |
