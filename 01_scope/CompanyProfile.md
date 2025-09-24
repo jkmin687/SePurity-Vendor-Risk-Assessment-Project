@@ -19,12 +19,12 @@ To deliver simple, effective, and affordable cloud-based security solutions that
 A cloud-based SaaS platform that provides:  
 - **Automated vulnerability scanning** for web apps and internal systems  
 - **Security awareness training** for onboarding and employees  
-- **Compliance dashboards** (e.g., NIST 800-53, SOC 2, ISO 27001, GDPR progress tracking)  
+- **Compliance dashboards** (e.g., SOC 2, ISO 27001, GDPR progress tracking)  
 - **Vendor risk tracking module**  
 
 **Delivery model:** 100% browser-based. Customers log in securely without needing local installations.  
 
-*Examples of SaaS providers that will alsobe used in this project include Google Workspace, Salesforce, and Dropbox.*  
+*Examples of SaaS providers that will alsobe used in this project include AWS, Salesforce, and Dropbox.*  
 
 ---
 
