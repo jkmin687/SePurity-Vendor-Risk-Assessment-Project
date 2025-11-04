@@ -31,12 +31,6 @@ Each vendor was assessed across five key categories:
 
 ---
 
-## Tier Legend  
-
-<img width="2970" height="720" alt="SePurity_Tier_Legend" src="https://github.com/user-attachments/assets/221a6c16-756b-4f24-9713-668efaf027be" />  
-
----
-
 ## Vendor Rationale  
 
 ### AWS • Total 20 • Critical Tier  
